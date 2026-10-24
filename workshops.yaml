@@ -1,0 +1,21 @@
+# A workshop is a composition of exercises in teaching order. Exercises are referenced as <course>/<exercise>.
+# Rendered on the landing site as docs/workshops/<slug>.md.
+workshops:
+  - slug: coding-agents-day
+    title: Coding Agents Workshop (one day)
+    audience: partner developers who know the UiPath platform and are new to coding agents
+    status: draft
+    sequence:
+      - exercise: coding-agents/getting-started
+        duration: 45m
+      - exercise: coding-agents/first-agent
+        duration: 60m
+      - exercise: coding-agents/loan-underwriting
+        duration: 180m
+  - slug: claim-case-day
+    title: ClaimCase — enterprise property claims with coding agents (one day, level 300)
+    audience: experienced UiPath developers
+    status: live
+    sequence:
+      - exercise: claim-case/claim-case
+        duration: 1d

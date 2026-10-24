@@ -1,0 +1,21 @@
+site_name: UiPath Practice — Workshop Catalog
+site_url: https://uipath-practice.github.io/
+site_description: Catalog of hands-on UiPath workshops and exercises built by Partner Success
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  font: { text: Inter }
+  palette: { scheme: default, primary: deep orange, accent: orange }
+  features: [navigation.tabs, navigation.top, navigation.footer, search.highlight, content.code.copy]
+plugins:
+  - search
+  - macros:
+      module_name: main
+markdown_extensions: [admonition, attr_list, md_in_html, tables, pymdownx.details, pymdownx.superfences]
+nav:
+  - Catalog: index.md
+  - Workshops: workshops.md
+  - Coverage: coverage.md
+extra_css: [stylesheets/extra.css]
+extra: { generator: false }
