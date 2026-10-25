@@ -1,4 +1,5 @@
-# uipath-practice.github.io — workshop catalog
+# WTFactory — Workshops and Trainings Factory: the public catalog
+
 
 The public landing page at https://uipath-practice.github.io/ . Lists every course and exercise with audience, level, products and prerequisites, the workshop compositions, and a product-coverage grid.
 

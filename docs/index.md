@@ -1,6 +1,6 @@
-# Workshop Catalog
+# Workshops and Trainings Factory
 
-Hands-on UiPath workshops built by the Partner Success team. Each course is a participant handbook on its own site; each exercise is a complete business case with the environment prepared for you.
+**WTFactory** is where the UiPath Partner Success team builds and runs its hands-on workshops. This is the catalog. Each course is a participant handbook on its own site; each exercise is a complete business case with the environment prepared for you.
 
 {% for c in courses %}
 ## [{{ c.title }}]({{ c.site }})
